@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FlashCardQuizApplication</string>
+    <string name="welcome_to_the_flashcard_quiz_on_history">Welcome to the flashcard quiz on history:</string>
+    <string name="quickly_and_actively_test_your_knowledge_of_historical_events_with_these_flashcards_see_your_score_after_responding_to_five_questions_press_quot_start_quot_to_get_your_quiz_started">Quickly and actively test your knowledge of historical events with these flashcards. See your score after responding to five questions. Press \"Start\" to get your quiz started!</string>
+    <string name="quot_start_quot">\"Start\"</string>
+    <string name="todo">TODO</string>
+</resources>
