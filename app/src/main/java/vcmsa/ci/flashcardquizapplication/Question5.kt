@@ -1,4 +1,4 @@
-package vcmsa.ci.flashcardquizapplication
+qpackage vcmsa.ci.flashcardquizapplication
 
 import android.content.Intent
 import android.os.Bundle
@@ -15,18 +15,20 @@ class Question5 : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_question5)
         //----------------------------------------------------------------------------------
+        //(Kotlinlang, 2024)
         val btnTrue5 = findViewById<Button>(R.id.btnTrue5)
         val btnFalse5 = findViewById<Button>(R.id.btnFalse5)
         val btnExit5 = findViewById<Button>(R.id.btnExit5)
         //Display a question and include two buttons for the answer options “True” and “False”
+        //(Donn Felker, 2017)
         val answers = arrayOf(true, false, true, false, false)  //Correct Answer
         val correctAns = answers[4]
         val score = intent.getIntExtra("score", 0)
 
-        //After you clicking the "answer," the following feedback for each answer will be “Correct!” or “Incorrect”
+        //After you clicking the "answer" the following feedback for each answer will be “Correct!” or “Incorrect”
         btnTrue5.setOnClickListener {
             if (!correctAns) {
-                Toast.makeText(this,"Incorrect!",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Incorrect!",Toast.LENGTH_SHORT).show() /* (Android Developer, 2024) */
             } else {
                 // Score stays the same because the answer is incorrect
                 Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
