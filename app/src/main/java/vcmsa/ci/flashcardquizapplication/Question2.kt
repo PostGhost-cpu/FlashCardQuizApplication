@@ -15,18 +15,20 @@ class Question2 : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_question2)
         //----------------------------------------------------------------------------------
+        //(Kotinlang, 2024)
         val btnTrue2 = findViewById<Button>(R.id.btnTrue2)
         val btnFalse2 = findViewById<Button>(R.id.btnFalse2)
         val btnExit2 = findViewById<Button>(R.id.btnExit2)
         //Display a question and include two buttons for the answer options “True” and “False”
+        //(Donn Felker, 2017)
         val answers = arrayOf(true, false, true, false, false)  //Correct Answer
         val correctAns = answers[1]
         val score = intent.getIntExtra("score", 0)
 
-        //After you clicking the "answer," the following feedback for each answer will be “Correct!” or “Incorrect”
+        //After you clicking the "answer" the following feedback for each answer will be “Correct!” or “Incorrect”
         btnTrue2.setOnClickListener {
             if (!correctAns) {
-                Toast.makeText(this,"Incorrect!",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Incorrect!",Toast.LENGTH_SHORT).show() /* (Android Developer, 2024) */
             } else {
                 // Score stays the same because the answer is incorrect
                 Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
