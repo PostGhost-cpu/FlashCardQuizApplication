@@ -13,7 +13,7 @@ class HomePage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.homepage_main)
-
+        //(Kotlinlang, 2024)
         //Click “Start” to begin
         val btnStart = findViewById<Button>(R.id.btnStart)
         btnStart.setOnClickListener {
