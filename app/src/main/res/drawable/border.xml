@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<shape xmlns:android="http://schemas.android.com/apk/res/android"> <!-- (IJ Apps, 2021) -->
     <solid android:color="#784CFD"/> <!-- Background color -->
     <stroke android:width="7dp"/> <!-- Border color -->
-    <corners android:radius="30dp"/> <!-- Rounded corners -->
+    <corners android:radius="30dp"/> <!-- Rounded corners (Indently, 2020) -->
 </shape>
